@@ -11,6 +11,7 @@ const validationSchema = Yup.object({
   password: Yup.string().required("Password is required").min(8, "Password must be at least 8 characters long"),
   field1: Yup.string().required("Field 1 is required"),
   field2: Yup.string().required("Field 2 is required"),
+  field3: Yup.string().required("Field 3 is required"), 
 });
 
 const Form = () => {
